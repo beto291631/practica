@@ -44,6 +44,7 @@ print("Tu índice de masa corporal es: " + "{:.2f}".format(imc))
 
 
 
+
 n = int(input("Ingrese el primer número entero: "))
 m = int(input("Ingrese el segundo número entero: "))
 c = n // m
