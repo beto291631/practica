@@ -24,7 +24,7 @@ print(mensaje + nombre + "!" )
 # Ejercicio 5
 # Escribir un programa que pregunte almacene el número de horas trabajadas y el coste por hora. Después debe mostrar por pantalla la paga que le corresponde.
 horas_trabajadas = float(input("horas_trabajadas"))
-coste_por_hora =float(input("coste_por_hora"))
+coste_por_hora = float(input("coste_por_hora"))
 paga = coste_por_hora + horas_trabajadas
 print("la paga correspondiente es: $" + str(paga))
 
@@ -66,3 +66,20 @@ print("Nombre completo en mayúsculas:", nombre_completo.upper())
 palabras = nombre_completo.split()
 palabras = [palabra.capitalize() for palabra in palabras]
 print("Nombre completo con la primera letra en mayúscula:", " ".join(palabras))
+
+# Ejercicio 2
+# Escribir un programa que pregunte el nombre del usuario en la consola y un número entero e imprima por pantalla en líneas distintas el nombre del usuario tantas veces como el número introducido.
+nombre = input("por favor ingrese su nombre:")
+numero = int(input("ingrese el un numero entero:"))
+for i in range(numero):
+   print(nombre)
+
+
+# Ejercicio 3
+# Escribir un programa que pregunte el nombre del usuario en la consola y después de que el usuario lo introduzca muestre por pantalla <NOMBRE> tiene <n> letras, donde <NOMBRE> es el nombre de usuario en mayúsculas y <n> es el número de letras que tienen el nombre.
+nombre = input("por favor ingrese su nombre:")
+nombre = input("Por favor ingrese su nombre: ")
+longitud = len(nombre)
+mensaje = "{} tiene {} letras".format(nombre.upper(), longitud)
+print(mensaje)
+
