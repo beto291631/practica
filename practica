@@ -28,7 +28,7 @@ print(resultado)
 horas_trabajadas = float(input("horas_trabajadas"))
 coste_por_hora = float(input("coste_por_hora"))
 paga = coste_por_hora + horas_trabajadas
-print("la paga correspondiente es: $" + str(paga))
+print("la paga correspondiente es: $", paga)
 
 
 
